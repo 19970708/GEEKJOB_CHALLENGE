@@ -1,0 +1,18 @@
+       <%   
+            String[] array={"10","100","soeda", "hayashi", "-20", "118", "END"};
+            for(int i=0;i<7;i++){
+                out.println(array[i]);
+            }
+        
+        %>
+
+
+
+        <<%
+            String[] array={"10","100","soeda", "hayashi", "-20", "118", "END"};
+            array[2]="33";
+            for(int i=0;i<7;i++){
+                out.println(array[i]);
+            }
+        
+        %>
