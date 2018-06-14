@@ -1,0 +1,13 @@
+○Java EE
+Java EEの正式名称は「Java Platform, Enterprise Edition」
+企業向けのWebアプリケーション開発用の機能をセットにしたもの
+Java EEのSDKには「Glassfish」というアプリケーションサーバーが同梱されている
+
+○Play Framework
+「Java」と「Scala」を使って作られたWEBフレームワーク
+他のフレームワークよりも軽量なため、利用しやすく学習コストも低め
+軽量で動作も速い
+
+○Spring Framework
+システムの仕様変更のしやすさやプログラムテストの行いやすさ、拡張性、システムの安定性などが挙げられる
+CakePHP や Ruby on Rails などのフレームワークに比べて、Spring はモジュールの使い方次第で幅広いジャンルのアプリケーションやソフトの開発に利用することができる
