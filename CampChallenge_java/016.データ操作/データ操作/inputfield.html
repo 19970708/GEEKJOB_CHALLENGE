@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<!--HTML ファイルを作成してください。また，この HTML ファイルに，以下の情報を入力するフォームを作成してください。 
+
+名前情報（テキストボックスで作成） 
+性別情報（ラジオボタンで作成） 
+趣味情報（テキストエリアで作成）
+
+<label>ってなんや
+<p>は段落
+typeは表示の種類
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="./inputdata.jsp" method="post">   <!--転送するファイル名とpost(隠される)形式 getならurlに表示される -->
+          <p>名前：<input type="text" name="name"></p>
+          <p>
+              <label>性別：</label>
+              <label>男</label><input type="radio" name="sex" value="男">
+              <label>女</label><input type="radio" name="sex"  value="女">
+          </p>
+          <p>
+              <label>趣味：</label>
+              <textarea name="hobby"></textarea>
+          </p>
+          
+          <p><input type="submit" value="送信する"></p>
+          </form>
+    </body>
+</html>
