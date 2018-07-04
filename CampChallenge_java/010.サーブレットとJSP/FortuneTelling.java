@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import java.util.Random;
 import java.util.Date;
-import javax.servlet.RequestDispatcher;
+import javax.servlet.RequestDispatcher; //JSPを呼び出す
 import org.camp.servlet.ResultData;
 /**
  *
@@ -42,10 +42,14 @@ public class FortuneTelling extends HttpServlet {
             Random rand=new Random();
             Integer index=rand.nextInt(luckList.length);
             
-            
+            //resultDataClass作成
             ResultData data= new ResultData();
+            //日付をdataに入力
             data.setD(new Date());
+            //運勢をdataに入力
             data.setLuck(luckList[index]);
+            //dataをDATAとして占い結果をリクエストスコープに登録
+            //スコープとはインスタンスを保存できる領域
             request.setAttribute("Data", data);
             String result="/WEB-INF/jsp/FortuneTellingResult.jsp";
             

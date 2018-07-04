@@ -8,6 +8,9 @@ package org.camp.servlet;
 import java.io.Serializable;
 import java.util.Date;
 
+//javaebans 
+//サーブレットからJSPへ情報を渡すため、JavaBeansを作成
+
 public class ResultData implements Serializable{
     private Date d;
     private String luck;

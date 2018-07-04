@@ -10,6 +10,8 @@
 <html>
     <head>
         <%
+            //リクエストスコープからインスタンスを取得
+            //取得するインスタンスの型　名前　＝&nbsp　(取得するインスタンスの型)　request.getAttribute("属性名")
             ResultData data=(ResultData)request.getAttribute("Data");
         %>
             
