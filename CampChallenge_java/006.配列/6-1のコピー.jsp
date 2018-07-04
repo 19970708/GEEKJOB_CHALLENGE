@@ -3,7 +3,7 @@
     Created on : 2018/05/12, 14:08:17
     Author     : hatano
 --%>
-
+//配列の作成
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
