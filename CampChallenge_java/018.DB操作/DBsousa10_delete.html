@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+
+以下のファイルを作成して，フォームで送信した値をもとにレコードの削除を行います。
+
+■ HTML ファイル
+大単元「データベース基礎」の課題「テーブルの作成とinsert」で作成したテーブルの profileID のカラム情報を送信するフォームを記述してください。
+
+■ JSP or サーブレットファイル（サーブレットとJSPを連携させても構いません）
+JDBC を利用して，削除処理を記述します。このとき，削除対象のレコードはフォームから受け取った profileID の値で指定してください。また，全件検索を行い，全レコードの全カラムを画面表示してください。
+
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="./DBsousa10_delete.jsp" method="post">
+            <p>削除したいID:<input type="text" name="id"></p>
+            <p><input type="submit" value="送信する"></p>
+        </form>
+
+    </body>
+</html>
